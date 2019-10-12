@@ -2,7 +2,7 @@
 function replaceContent() {
 	//declaring the variables
 	var myRecipientName;
-	var HostName
+	var HostName;
 	
 	//setting the variable to the input field's id named recipientNameInput's value
 	myRecipientName = document.getElementById("recipientNameInput").value;
