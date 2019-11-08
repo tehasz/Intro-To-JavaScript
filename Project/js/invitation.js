@@ -9,6 +9,7 @@ function replaceContent() {
 	HostName = document.getElementById("hostNameInput").value;
 	
 	console.log('Variable myRecipientName: ' + myRecipientName);
+	console.log('Variable HostName: ' + HostName);
 	
 	//setting the HTML code in the span id recipientNamePlaceholder with the variable 
 	document.getElementById("recipientNamePlaceholder").innerHTML = myRecipientName;
